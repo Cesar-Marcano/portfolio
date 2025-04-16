@@ -122,7 +122,7 @@ export default function SystemArchitecture() {
                   )
                 }
                 whileHover={{ scale: 1.02 }}
-                className="mt-4 inline-flex items-center gap-2 px-6 py-3 bg-red-500/10 text-red-400 rounded-lg border border-red-500/20 hover:bg-red-500/20 transition-colors"
+                className="mt-4 inline-flex items-center gap-2 px-6 py-3 bg-red-500/10 text-white rounded-lg border border-red-500/20 hover:bg-red-500/20 transition-colors"
               >
                 <span>Go to source</span>
               </motion.button>
