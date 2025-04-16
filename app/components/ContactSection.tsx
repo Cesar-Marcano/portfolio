@@ -60,6 +60,7 @@ export default function ContactSection() {
 							<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 								<motion.a
 									href="https://github.com/Cesar-Marcano"
+									target="_blank"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-stone-800/50 rounded-lg hover:bg-stone-700/50 transition-colors border border-stone-700/50 group"
 								>
@@ -75,6 +76,7 @@ export default function ContactSection() {
 								</motion.a>
 								<motion.a
 									href="https://linkedin.com/in/cesar-marcano"
+									target="_blank"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-stone-800/50 rounded-lg hover:bg-stone-700/50 transition-colors border border-stone-700/50 group"
 								>
