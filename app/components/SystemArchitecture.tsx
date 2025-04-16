@@ -41,13 +41,13 @@ export default function SystemArchitecture() {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ delay: index * 0.2 }}
-							className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
+							className="bg-stone-900/50 rounded-xl p-6 backdrop-blur-sm border border-stone-800"
 						>
 							<h3 className="text-2xl font-bold mb-4">{project.title}</h3>
-							<p className="text-gray-400 mb-6">{project.description}</p>
+							<p className="text-stone-400 mb-6">{project.description}</p>
 							<div className="mb-6">
 								<h4 className="text-lg font-semibold mb-2">Key Achievements:</h4>
-								<ul className="list-disc list-inside space-y-2 text-gray-300">
+								<ul className="list-disc list-inside space-y-2 text-stone-300">
 									{project.details.map((detail, i) => (
 										<li key={i}>{detail}</li>
 									))}
@@ -55,7 +55,7 @@ export default function SystemArchitecture() {
 							</div>
 							<div className="flex flex-wrap gap-2">
 								{project.tech.map((tech, i) => (
-									<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
+									<span key={i} className="text-sm px-3 py-1 bg-red-500/10 rounded-full border border-red-500/20">
 										{tech}
 									</span>
 								))}
