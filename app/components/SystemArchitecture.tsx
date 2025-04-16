@@ -114,6 +114,18 @@ export default function SystemArchitecture() {
                   </span>
                 ))}
               </div>
+              <motion.button
+                onClick={() =>
+                  window.open(
+                    `https://github.com/Cesar-Marcano/${project.title}`,
+                    "_blank"
+                  )
+                }
+                whileHover={{ scale: 1.02 }}
+                className="mt-4 inline-flex items-center gap-2 px-6 py-3 bg-red-500/10 text-red-400 rounded-lg border border-red-500/20 hover:bg-red-500/20 transition-colors"
+              >
+                <span>Go to source</span>
+              </motion.button>
             </motion.div>
           ))}
         </div>
