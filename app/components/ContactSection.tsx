@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function ContactSection() {
 	return (
-		<section className="py-20 px-4">
+		<section id="contact" className="py-20 px-4">
 			<div className="max-w-4xl mx-auto">
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -33,19 +33,19 @@ export default function ContactSection() {
 									/>
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 								</svg>
-								<span>San Francisco, CA</span>
+								<span>Nueva Esparta, Venezuela</span>
 							</div>
 							<p className="text-fuchsia-500 mt-8 mb-2">$ contact --email</p>
 							<motion.a
-								href="mailto:alex.chen@example.com"
+								href="mailto:cesar.marcano.dev@gmail.com?subject=Hello,%20Cesar!%20...&body=Write%20more%20details%20here."
 								whileHover={{ scale: 1.02 }}
 								className="inline-block px-6 py-3 bg-fuchsia-500/10 text-fuchsia-400 rounded-lg border border-fuchsia-500/20 hover:bg-fuchsia-500/20 transition-colors"
 							>
-								alex.chen@example.com
+								cesar.marcano.dev@gmail.com
 							</motion.a>
 							<p className="text-fuchsia-500 mt-8 mb-2">$ cat resume.pdf</p>
 							<motion.a
-								href="/path-to-resume.pdf"
+								href="/resume.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								whileHover={{ scale: 1.02 }}
@@ -59,7 +59,7 @@ export default function ContactSection() {
 							<p className="text-fuchsia-500 mt-8 mb-4">$ ls ./social-links</p>
 							<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 								<motion.a
-									href="#"
+									href="https://github.com/Cesar-Marcano"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-stone-800/50 rounded-lg hover:bg-stone-700/50 transition-colors border border-stone-700/50 group"
 								>
@@ -70,11 +70,11 @@ export default function ContactSection() {
 									</div>
 									<div>
 										<p className="font-semibold text-stone-200">GitHub</p>
-										<p className="text-sm text-stone-400">@alexchen</p>
+										<p className="text-sm text-stone-400">@Cesar-Marcano</p>
 									</div>
 								</motion.a>
 								<motion.a
-									href="#"
+									href="https://linkedin.com/in/cesar-marcano"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-stone-800/50 rounded-lg hover:bg-stone-700/50 transition-colors border border-stone-700/50 group"
 								>
@@ -85,22 +85,7 @@ export default function ContactSection() {
 									</div>
 									<div>
 										<p className="font-semibold text-stone-200">LinkedIn</p>
-										<p className="text-sm text-stone-400">Alex Chen</p>
-									</div>
-								</motion.a>
-								<motion.a
-									href="#"
-									whileHover={{ scale: 1.05 }}
-									className="flex items-center gap-3 px-4 py-3 bg-stone-800/50 rounded-lg hover:bg-stone-700/50 transition-colors border border-stone-700/50 group"
-								>
-									<div className="p-2 bg-stone-700/50 rounded-lg group-hover:bg-stone-600/50 transition-colors">
-										<svg className="w-5 h-5 text-fuchsia-400" fill="currentColor" viewBox="0 0 24 24">
-											<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-										</svg>
-									</div>
-									<div>
-										<p className="font-semibold text-stone-200">X</p>
-										<p className="text-sm text-stone-400">@alexchen</p>
+										<p className="text-sm text-stone-400">in/cesar-marcano</p>
 									</div>
 								</motion.a>
 							</div>
