@@ -41,9 +41,6 @@ export default function HeroSection() {
                 Nest.JS
               </span>
               <span className="px-3 py-1 bg-fuchsia-500/10 rounded-md border border-fuchsia-500/20">
-                AWS
-              </span>
-              <span className="px-3 py-1 bg-fuchsia-500/10 rounded-md border border-fuchsia-500/20">
                 Docker
               </span>
             </div>
