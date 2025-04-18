@@ -118,7 +118,8 @@ export default function Projects() {
                 onClick={() =>
                   window.open(
                     `https://github.com/Cesar-Marcano/${project.title}`,
-                    "_blank"
+                    "_blank",
+                    "noopener,noreferrer"
                   )
                 }
                 whileHover={{ scale: 1.02 }}
